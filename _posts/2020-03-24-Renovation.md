@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ページリニューアル
+title: Page Renovation
 date: 2020/03/24
 ---
 
