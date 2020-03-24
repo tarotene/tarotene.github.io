@@ -1,0 +1,25 @@
+I"F<h3 id="writings">Writings</h3>
+
+<h4 id="mathematical-notes-some-articles-below-are-written-in-japanese">Mathematical Notes (some articles below are written in Japanese)</h4>
+
+<ul>
+  <li>Numerical Analysis
+    <ul>
+      <li>Iterative Methods in Linear Equations: Jacobi [<a href="https://trtn.hatenablog.com/entry/2020/03/14/155616">Derivation</a>, <a href="https://qiita.com/tarotene/items/4099eb9eae66695eb5f4">Experiment</a>]</li>
+      <li>Iterative Methods in Linear Equations: Gauss-Seidel [<a href="https://trtn.hatenablog.com/entry/2020/03/16/191918">Derivation</a>, <a href="https://qiita.com/tarotene/items/8b6bfbe5d60ccb182ffd">Experiment</a>]</li>
+    </ul>
+  </li>
+  <li>Number Theory
+    <ul>
+      <li>Modular Inverse and Extended Euclidian Algorithm [<a href="https://trtn.hatenablog.com/entry/2020/02/21/171705">Derivation</a>]</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="competitive-programming">Competitive Programming</h3>
+
+<ul>
+  <li>AtCoder (id: <a href="https://atcoder.jp/user/tarotene">tarotene</a>)</li>
+  <li>CodeForces (id: [tarotene <strong>inactive</strong></li>
+</ul>
+:ET

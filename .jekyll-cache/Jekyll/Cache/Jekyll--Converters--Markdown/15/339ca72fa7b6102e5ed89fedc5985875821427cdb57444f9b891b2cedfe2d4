@@ -1,0 +1,29 @@
+I"D<p><a href="https://aloerina01.github.io/blog/2016-10-02-2">Web記事</a>を参考に，<a href="https://github.com/barryclark/jekyll-now">Jekyll-now</a>+<a href="https://gist.github.com/tarotene/3cc061b5aa32cbf8a2e36ce402af0bbe">自家製はてなアイコン</a>でリニューアルを行いました．</p>
+
+<p>参考のために書いておくと，Jekyllフォルダ直下の <code class="highlighter-rouge">/_sass/_svg-icons.scss</code> に</p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&amp;</span><span class="nc">.hatena</span> <span class="p">{</span> <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url('data:image/svg+xml;charset=utf8,%3Csvg%20width%3D%2240%22%20height%3D%2240%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M20%2040C8.972%2040%200%2031.029%200%2020%200%208.972%208.972%200%2020%200c11.03%200%2020%208.972%2020%2020%200%2011.029-8.97%2020-20%2020zm0-37.456c-9.626%200-17.457%207.83-17.457%2017.456S10.374%2037.457%2020%2037.457c9.627%200%2017.458-7.831%2017.458-17.457%200-9.626-7.831-17.456-17.458-17.456zm2.33%207.58c-.978-1.978-1.574-3.902-1.876-5.024v14.166a1.301%201.301%200%2001-.454%202.52%201.3%201.3%200%2001-.381-2.542V5.085c-.3%201.119-.897%203.052-1.88%205.04-1.53%203.096-3.438%205.827-3.438%205.827l1.22%2016.702s1.16%201.295%204.511%201.296h.005c3.351-.001%204.512-1.296%204.512-1.296l1.22-16.702s-1.909-2.731-3.44-5.828z%22%20fill%3D%22%23333%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E')</span><span class="p">;</span> <span class="p">}</span>
+</code></pre></div></div>
+<p>という項目を適当に追加し，同じく <code class="highlighter-rouge">/_includes/svg-icons.html</code> にも</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://trtn.hatena.com"</span><span class="nt">&gt;&lt;i</span> <span class="na">class=</span><span class="s">"svg-icon hatena"</span><span class="nt">&gt;&lt;/i&gt;&lt;/a&gt;</span>
+</code></pre></div></div>
+<p>と書き加えます．すると，<code class="highlighter-rouge">/_config.yml</code> の <code class="highlighter-rouge">footer-links:</code> 以下で</p>
+<div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hatena</span><span class="pi">:</span> <span class="s">trtn</span>
+</code></pre></div></div>
+<p>と設定することで，html側の変数 <code class="highlighter-rouge">site.footer-links.hatena</code> が有効になります<sup id="fnref:shikumi"><a href="#fn:shikumi" class="footnote">1</a></sup>．</p>
+
+<p>Jekyll-now（とその派生テーマ）では様々なアイコンを有効化できるみたいですが，日本国内のSNSやブログサービスのアイコンは用意されていないので自分で作る必要があります．自分は，<a href="https://hatenacorp.jp/press/resource">はてな公式</a>からダウンロードした素材を 40x40 に縮小したものをそのまま base64 に変換して使っています<sup id="fnref:base"><a href="#fn:base" class="footnote">2</a></sup>．同じようにやれば，他のサービスでも素材さえ用意すればアイコンを増やせるはずです<sup id="fnref:Qiita"><a href="#fn:Qiita" class="footnote">3</a></sup>．</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:shikumi">
+      <p>この仕組みを理解するのに，Web系の知識がない私は数時間を費やしました． <a href="#fnref:shikumi" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:base">
+      <p>base64は画像などをCSS上にインライン展開するのに必要です． <a href="#fnref:base" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:Qiita">
+      <p>ちなみに大手技術情報シェアサービスであるところのQiitaでは公式アイコンが配布されていませんでした．残念． <a href="#fnref:Qiita" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

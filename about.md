@@ -4,12 +4,19 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Graduate student, live in Sugamo, Tokyo (2016 - ). Born in Kawanishi, Hyogo.
 
-### More Information
+### Specialty
 
-A place to include any other types of information that you'd like to include about yourself.
+- Theoretical and Computational Condensed-Matter Physics
 
-### Contact me
+Also interested in Numerical Analysis, Machine Learning, and Computer Science.
 
-[email@domain.com](mailto:email@domain.com)
+### Employment
+
+- 2018.04 - **Present**: Junior Research Associate at CPR, RIKEN ([Yunoki CCMP lab.](http://www2.riken.jp/ccmp/index_en.html))
+
+### Education
+
+- 2016.04 - **Present**: Department of Physics, Univ. Tokyo ([Hatano lab.](http://hatano-lab.iis.u-tokyo.ac.jp/index-e.html)) 
+- 2011.04 - 2016.03: Department of Physical Science, Osaka Pref. Univ. (Tanaka lab.)
