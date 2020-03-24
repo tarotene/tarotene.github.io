@@ -1,1 +1,1 @@
-Jekyll
+Jekyll-based website.
