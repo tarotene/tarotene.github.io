@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Graduate student, live in Sugamo, Tokyo (2016 - ). Born in Kawanishi, Hyogo.
+Graduate student, live in Sugamo, Tokyo (2016 -). Born in Kawanishi, Hyogo.
 
 ### Specialty
 

@@ -7,8 +7,8 @@ permalink: /research/
 ### Interests
 
 - Controlling magnetic frictions in some materials
-- Description of motion of Helium 4 atoms on graphite substrate (**working on it now**)
-- Description of mechanical effects on magnetic materials (**working on it now**)
+- Description of motion of Helium 4 atoms on graphite substrate (**now**)
+- Description of mechanical effects on magnetic materials (**now**)
 
 ### Works
 
