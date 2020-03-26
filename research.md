@@ -25,9 +25,9 @@ permalink: /research/
 
 #### Poster
 
-- K. Sugimoto, the 61st Condensed-Matter Physics Summer School (2016) [[Poster](/pdf/poster.CMPSS61.pdf)]
-- K. Sugimoto, the 62nd Condensed-Matter Physics Summer School (2017) [[Poster](/pdf/poster.CMPSS62.pdf)]
-- K. Sugimoto, StatPhys27 (2019) [[Poster](/pdf/poster.STATPHYS27.pdf)]
+- K. Sugimoto, the 61st Condensed-Matter Physics Summer School (2016) [[Poster](/materials/poster/poster.CMPSS61.pdf)]
+- K. Sugimoto, the 62nd Condensed-Matter Physics Summer School (2017) [[Poster](/materials/poster/poster.CMPSS62.pdf)]
+- K. Sugimoto, StatPhys27 (2019) [[Poster](/materials/poster/poster.STATPHYS27.pdf)]
 
 #### Review of books
 
