@@ -4,13 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Graduate student, live in Sugamo, Tokyo (2016 -). Born in Kawanishi, Hyogo.
+Graduate student, living in Sugamo, Tokyo. Born in Kawanishi, Hyogo. [[CV](/materials/CV/CV.pdf)]
 
 ### Specialty
 
 - Theoretical and Computational Condensed-Matter Physics
 
-Also interested in Numerical Analysis, Machine Learning, and Computer Science.
+### Current Interests
+
+- Numerical Analysis, Machine Learning, Computer Science, etc.
 
 ### Employment
 
