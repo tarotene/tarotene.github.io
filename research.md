@@ -4,7 +4,7 @@ title: Research
 permalink: /research/
 ---
 
-### Interests
+### Topics
 
 - Controlling magnetic frictions in some materials
 - Description of motion of Helium 4 atoms on graphite substrate (**now**)
