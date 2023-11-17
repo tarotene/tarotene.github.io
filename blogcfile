@@ -1,0 +1,26 @@
+[global]
+AUTHOR_NAME = Kentaro Sugimoto
+AUTHOR_EMAIL = tarotene.dev@gmail.com
+SITE_TITLE = Kakapo Electronics
+SITE_TAGLINE = Personal Blog
+BASE_DOMAIN = https://tarotene.dev
+GITHUB_URL = https://github.com/tarotene
+
+[settings]
+locale = en_US.utf8
+post_prefix = post
+pagination_prefix = post/page
+index_prefix =
+posts_per_page = 4
+posts_sort = 1
+
+[pages]
+about
+
+[posts]
+
+[copy]
+assets/bootstrap.bundle.min.js
+assets/bootstrap.min.css
+assets/jquery.slim.min.js
+assets/custom.css
